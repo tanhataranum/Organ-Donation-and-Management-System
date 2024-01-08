@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+    <title>Organ Donation Management System</title>
+</head>
+<body> 
+    <section id="terms-section">
+        <h2>Terms and Conditions</h2>
+
+        <div class="terms-content">
+            <h3>1. Acceptance of Terms</h3>
+            <p>By accessing or using the Organ Donation Management System, you agree to comply with and be bound by these terms and conditions.</p>
+        </div>
+
+        <div class="terms-content" style="display: none;">
+            <h3>2. User Registration</h3>
+            <p>In order to access certain features of the system, you may be required to register. You agree to provide accurate and complete information during the registration process.</p>
+        </div>
+
+        <div class="terms-content" style="display: none;">
+            <h3>3. Privacy Policy</h3>
+            <p>Our privacy policy outlines how we collect, use, and disclose your personal information. Please review our <a href="#">Privacy Policy</a> for more details.</p>
+        </div>
+
+        <div class="terms-content" style="display: none;">
+            <h3>4. Use of Services</h3>
+            <p>You agree to use the services provided by the Organ Donation Management System for lawful purposes only. Any violation of these terms may result in the termination of your access to the system.</p>
+        </div>
+
+        <!-- Add more terms and conditions as needed -->
+
+        <div class="navigation-buttons">
+            <button onclick="showPrevious()">Previous</button>
+            <button onclick="showNext()">Next</button>
+        </div>
+    </section>
+
+    <script>
+        var currentTerm = 0;
+        var terms = document.querySelectorAll('.terms-content');
+
+        function showPrevious() {
+            if (currentTerm > 0) {
+                terms[currentTerm].style.display = 'none';
+                currentTerm--;
+                terms[currentTerm].style.display = 'block';
+            }
+        }
+
+        function showNext() {
+            if (currentTerm < terms.length - 1) {
+                terms[currentTerm].style.display = 'none';
+                currentTerm++;
+                terms[currentTerm].style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

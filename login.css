@@ -1,0 +1,68 @@
+        body {
+            background-color: #f2f2f2; /* Light gray background color */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the login container */
+        .login-container {
+            width: 400px; /* Set the width of the login container */
+            margin: 50px auto; /* Center the container horizontally */
+            padding: 20px;
+            background-color: #800080; /* Purple background color */
+            border-radius: 10px; /* Add border radius for rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+        }
+
+        /* Style the login form */
+        .login-form {
+            color: #fff; /* White text color */
+        }
+
+        /* Style form elements */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #fff; /* White text color for labels */
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        /* Style the login button */
+        button {
+            background-color: #4caf50; /* Green button color */
+            color: #fff; /* White text color */
+            padding: 8px 15px; /* Adjusted padding for a smaller button */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        /* Style links */
+        a {
+            color: #fff; /* White text color for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }

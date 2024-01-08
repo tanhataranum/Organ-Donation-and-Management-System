@@ -1,0 +1,48 @@
+/* Custom Styles for the Admin Page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container h2 {
+    color: #343a40;
+}
+
+/* Optional: Style the logout button */
+.navbar-dark .navbar-nav .nav-link.logout {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link.logout:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Add some styling to the dashboard content */
+.dashboard-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}

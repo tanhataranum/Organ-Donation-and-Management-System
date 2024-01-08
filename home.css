@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    background-color: #ffffff;
+    color: #4e2a87;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4e2a87;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.col,
+#right-col {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #4e2a87;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section h2 {
+    color: #4e2a87;
+}
+
+footer {
+    background-color: #4e2a87;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center; /* Center the links */
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+.image-container {
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonial-content,
+.contact-content {
+    margin-right: 20px;
+}
+
+.registration-login-section,
+.contact-section,
+.picture-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration-login-section a,
+.contact-section a {
+    margin: 10px;
+}
+
+/* Additional Styles for Slideshow */
+.picture-section {
+    position: relative;
+    margin-top: 20px;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.image-container-slide {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container-slide img {
+    max-width: 100%;
+    height: auto;
+}

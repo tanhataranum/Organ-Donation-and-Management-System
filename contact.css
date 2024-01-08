@@ -1,0 +1,72 @@
+/* Custom Styles for the Contact Page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Adjusted to match the home page background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0f75db; /* Adjusted to match the home page header background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #0f75db; /* Adjusted to match the home page footer background */
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 200px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
